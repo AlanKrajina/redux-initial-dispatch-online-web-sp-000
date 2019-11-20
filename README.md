@@ -18,7 +18,7 @@ Currently, we have built our `changeState()` reducer, and the `dispatch()` and
 `render()` functions.  Remember that we built the `dispatch` function such that
 each time we execute it, we call the `render()` function:
 
-```javascript
+``javascript
 let state = {count: 0};
 
 function changeState(state, action){
